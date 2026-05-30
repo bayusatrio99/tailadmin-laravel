@@ -6,7 +6,6 @@ composer config --global allow-plugins.dealerdirect/phpcodesniffer-composer-inst
 composer install --ignore-platform-reqs --no-interaction
 
 npm install
-npm run build
 
 cp .env.example .env || true
 
